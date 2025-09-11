@@ -8,12 +8,12 @@ S.top(): Return a reference to the top element of stack S, without removing it; 
 S.is empty(): Return True if stack S does not contain any elements.
 len(S): Return the number of elements in stack S; in Python, we implement this with the special method len
 
-![alt text](image.png)
 ```
+![alt text](image.png)
 
 # Implementation 
 
-```
+```python
 class Stack:
     """Stack implementation using Array"""
 
