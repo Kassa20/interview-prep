@@ -1,1 +1,1 @@
-- [stack](./DataStructures/Stack)
+- [stack](Data-Structures/Stack)
