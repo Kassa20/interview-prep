@@ -1,3 +1,4 @@
+Documenting all the important stuff I've learned
 
   # Table of contents
   
