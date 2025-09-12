@@ -1,6 +1,7 @@
 
 # Implementation
-```python
+
+# ```python
 
 """Singly linked list implementation"""
 
@@ -42,7 +43,6 @@ class LinkedList:
             self.head = new_node
         self.size += 1
 
-    #not finished
     def delete(self, item):
 
         if self.is_empty():
@@ -54,11 +54,19 @@ class LinkedList:
             if self.head is None: #list became empty
                 self.tail = None
             return
-        
-        left = self.head
-        right = self.head.next
-        
 
+        curr = self.head
+        while curr != None:
+            if (curr.next == item and curr.next == self.tail):
+                self.tail = curr
+                self.tail.next = None
+                return
+            elif curr.next == item:
+                curr.next = curr.next.next 
+                return
+
+            curr = curr.next
+        
         
     def search(self, item):
 

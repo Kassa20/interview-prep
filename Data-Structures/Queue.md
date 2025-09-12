@@ -72,12 +72,33 @@ Use-Cases
 - Printers
 - Web server responding requests 
 
+The remove operation in a queue is an O(N) operation, since each element would have to be 
+shifted back to fill the gaps. Unless we use a circular queue
+
 In the implementation, the queue is a circular queue. This is to make the dequeue operation efficient 
 
-queue.remove(first) is a O(n) operation 
+when an element is removed, we set its value as None and update the front to f + 1
+we have to initialize the queue with an initial capacity
 
-![alt text](./images/image.png)
+Let capacity = 5
 
-![alt text](./images/image-1.png)
+[None, None, 6, 7, None] : front(f) = 6, size(sz) = 2, add(8)
+
+i= 0     1   2  3  4
+[None, None, 6, 7, 8] : f = 6, sz = 3, add(9)
+
+here we use the operation front + size mod capacity to wrap around the back
+
+2 + 3 = 5 % 5 = 0, so the next element is added in the 0th index
+
+i= 0  1   2  3  4
+[9, None, 6, 7, 8] : f = 6, sz = 4, add(10)
+
+i=0 1   2  3  4
+[9, 10, 6, 7, 8] : f = 6, sz = 4, add(10)
+
+when the queue is full, we create a new queue with double the size of the original queue
+and copy all the elements starting from the front pointer. This is a O(N) operation but 
+if we double the size each time, the secnario for when we need to double will decrease overtime. 
 
 ```

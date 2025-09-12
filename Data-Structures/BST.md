@@ -61,6 +61,3 @@ class BST:
         return 
         
 ```
-
-# Binary Search Trees
-
