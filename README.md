@@ -1,4 +1,4 @@
-Documenting all the important stuff I've learned
+Documenting all the important stuff I'm learning 
 
   # Table of contents
 
