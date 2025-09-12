@@ -1,7 +1,7 @@
 
 # Implementation
 
-# ```python
+```python
 
 """Singly linked list implementation"""
 
