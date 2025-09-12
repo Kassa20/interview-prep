@@ -1,5 +1,10 @@
 Documenting all the important stuff I've learned
 
   # Table of contents
+
+  ## Data-Structures
   
-- [Data-structures using python](Data-Structures/data-struc-examples.md)
+- [Stack](Data-Structures/Stack.md)
+- [Queue](Data-Structures/Queue.md)
+- [Linked-Lists](Data-Structures/LL.md)
+- [Binary-Search-Tree](Data-Structures/BST.md)
