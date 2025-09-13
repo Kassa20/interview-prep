@@ -5,16 +5,16 @@ Documenting all the important stuff I'm learning
   
   ## Data-Structures (Theory)
 
-- [Theory](Data-Structures/theory.md)
+- [Theory](Data_Structures/theory.md)
 
 
   ## Data-Structures (Implementation)
   
-- [Stack](Data-Structures/Stack.md)
-- [Queue](Data-Structures/Queue.md)
-- [Linked-Lists](Data-Structures/LL.md)
-- [Binary-Search-Tree](Data-Structures/BST.md)
-- [Graph](Data-Structures/graph.md)
+- [Stack](Data_Structures/Stack.md)
+- [Queue](Data_Structures/Queue.md)
+- [Linked-Lists](Data_Structures/LL.md)
+- [Binary-Search-Tree](Data_Structures/BST.md)
+- [Graph](Data_Structures/graph.md)
 
   ## Algorithms (Theory)
 
