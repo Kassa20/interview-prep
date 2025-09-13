@@ -5,7 +5,7 @@ Documenting all the important stuff I'm learning
   
   ## Data-Structures (Theory)
 
-  ### Arrays 
+   ### Arrays 
 - Built from fixed-size records
 - Constant access time given the index.
 - Space efficient – arrays consist only of the data, so no space is wasted with links or formatting info.
