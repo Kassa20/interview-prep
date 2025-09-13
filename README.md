@@ -34,6 +34,15 @@ Documenting all the important stuff I'm learning
   - Harder to implement, appropriate when order is important.
   - Used for searches in graphs.
 
+  ### BST (order of traversal)
+- DFS (depth first) 
+  - Pre-order: root, left, right
+  - In-order: left, root, right
+  - Post-order: left, right, root
+  - can be implemented using a stack
+- BFS (breadth first)
+  - Implemented using a queue, visit all nodes at current level, advance to next level (doesn't use recursion)
+
 
   ## Data-Structures (Implementation)
   
