@@ -1,0 +1,35 @@
+
+   ### Arrays 
+- Built from fixed-size records
+- Constant access time given the index.
+- Space efficient – arrays consist only of the data, so no space is wasted with links or formatting info.
+- Easy to iterate over quickly, because of memory locality.
+- Cannot adjust their size in the middle of a program's execution.
+- Dynamic arrays double in size whenever insert index is out of bound (Java's ArrayList is dynamic, while int isn't).
+- Java array max length is Integer.MAX_VALUE = 2^31-1 (but could actually be a bit shorter because of reserved memory).
+
+
+   ### Linked Lists
+- Singly-linked – each elements links to the next one.
+- Doubly-linked – each elements links to the next and previous elements.
+- Operations supported: search, insert, delete.
+- Cannot overflow (as opposed to static arrays which have a finite length).
+- Simpler insertion/deletion than arrays.
+- Requires extra memory for pointers than arrays.
+- Not efficient for random access to items.
+- Worse memory locality than arrays.
+
+   ### Stacks and Queues
+- Stacks – LIFO (push, pop)
+  - Very efficient, good to use when retrieval order doesn't matter at all (like for batch jobs).
+  - LIFO usually happens in recursive algorithms.
+- Queues – FIFO (enqueue, dequeue)
+  - Average "waiting time" for jobs is identical for FIFO and LIFO. Maximum time varies (FIFO minimizes max waiting time).
+  - Harder to implement, appropriate when order is important.
+  - Used for searches in graphs.
+
+  ### BST (order of traversal)
+
+
+
+  ### Graphs
