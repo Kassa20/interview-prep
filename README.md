@@ -15,6 +15,26 @@ Documenting all the important stuff I'm learning
 - Java array max length is Integer.MAX_VALUE = 2^31-1 (but could actually be a bit shorter because of reserved memory).
 
 
+   ### Linked Lists
+- Singly-linked – each elements links to the next one.
+- Doubly-linked – each elements links to the next and previous elements.
+- Operations supported: search, insert, delete.
+- Cannot overflow (as opposed to static arrays which have a finite length).
+- Simpler insertion/deletion than arrays.
+- Requires extra memory for pointers than arrays.
+- Not efficient for random access to items.
+- Worse memory locality than arrays.
+
+   ### Stacks and Queues
+- Stacks – LIFO (push, pop)
+  - Very efficient, good to use when retrieval order doesn't matter at all (like for batch jobs).
+  - LIFO usually happens in recursive algorithms.
+- Queues – FIFO (enqueue, dequeue)
+  - Average "waiting time" for jobs is identical for FIFO and LIFO. Maximum time varies (FIFO minimizes max waiting time).
+  - Harder to implement, appropriate when order is important.
+  - Used for searches in graphs.
+
+
   ## Data-Structures (Implementation)
   
 - [Stack](Data-Structures/Stack.md)
