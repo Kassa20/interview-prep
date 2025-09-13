@@ -1,4 +1,4 @@
-
+``` Python
 def dfs(self, node):
 
     if node not in self.adj_list.keys():
@@ -18,3 +18,4 @@ def dfs(self, node):
             if neighbor not in seen:        # just making the dfs faster, not necessary 
                 stack.append(neighbor)
  
+```
