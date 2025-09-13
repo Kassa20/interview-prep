@@ -1,3 +1,5 @@
+from collections import deque
+
 class Graph:
     def __init__(self):
         self.adj_list = {}
@@ -36,44 +38,3 @@ class Graph:
     def display(self):
         for node, neighbors in self.adj_list.items():
             print(f"{node} -> {neighbors}")
-
-
-    def dfs(self, node):
-
-        if node not in self.adj_list.keys():
-            return
-
-        stack = []
-        seen = set()
-        stack.append(node)
-
-        while stack:
-            curr = stack.pop()
-            if curr in seen:
-                continue
-            print(curr)
-            seen.add(curr)
-            for neighbor in self.adj_list[curr]:
-                if neighbor not in seen:
-                    stack.append(neighbor)
-
-             
-
-            
-
-
-
-
-
-
-
-
-
-
-g = Graph()
-g.add_edge("A", "B")
-g.add_edge("B", "D")
-g.add_edge("D", "C")
-g.add_edge("A", "C")
-g.display()
-g.dfs("A")
