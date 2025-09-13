@@ -47,17 +47,5 @@ class BST:
                 return True
         
         return False
-
-
-    def preOrder(self, root):
-
-        if root == None:
-            return
-        
-        print(root.val)
-        self.preOrder(root.left)
-        self.preOrder(root.right)
-
-        return 
         
 ```
