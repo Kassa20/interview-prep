@@ -1,4 +1,5 @@
 
+``` python
 from collections import deque
 
 def bfs(self, node):
@@ -21,3 +22,4 @@ def bfs(self, node):
             if neighbor not in seen:
                 queue.append(neighbor)
 
+```
