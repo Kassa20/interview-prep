@@ -14,6 +14,8 @@ Documenting all the important stuff I'm learning
 - [Linked-Lists](Data_Structures/LL.md)
 - [Binary-Search-Tree](Data_Structures/BST.md)
 - [Graph](Data_Structures/graph.md)
+- [Heap](Data_Structures/heap.md)
+
 
   ## Algorithms (Theory)
 
