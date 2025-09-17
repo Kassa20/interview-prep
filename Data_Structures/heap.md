@@ -1,3 +1,5 @@
+
+``` python
 # parent = (index - 1) / 2
 # l-child = parent * 2 + 1
 # r-child = parent * 2 + 2
@@ -82,3 +84,4 @@ class Heap:
             larger_child_index, index = index, larger_child_index
             index = larger_child_index
 
+```

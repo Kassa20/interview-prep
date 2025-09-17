@@ -3,9 +3,8 @@ Documenting all the important stuff I'm learning
   # Table of contents
 
   
-  ## Data-Structures (Theory)
 
-- [Theory](Data_Structures/theory.md)
+- [Data-Structures-Theory](Data_Structures/theory.md)
 
 
   ## Data-Structures (Implementation)
@@ -18,7 +17,7 @@ Documenting all the important stuff I'm learning
 
   ## Algorithms (Theory)
 
-  - [Theory](Algorithms/theory.md)
+  - [Algorithms Theory](Algorithms/theory.md)
   
   ## Algorithms (Implementation)
 
