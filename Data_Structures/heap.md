@@ -7,6 +7,8 @@
 #   0   1   
 # [20, 10, ]
 
+# practice heapify on whiteboard 
+
 class Heap:
     def __init__(self):
 
